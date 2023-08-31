@@ -5,10 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tastify | Salad Restaurant</title>
 
+    <!-- Plugins Styles -->
+    <link rel="stylesheet" href="./assets/plugins/aos-master/dist/aos.css">
     <!-- Local Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
+<body id="home">
+    <div class="container">
+    <!-- Navbar Start -->
+        <div class="navbar" data-aos="fade-down">
+            <!-- Desktop Menu Start -->
+            <img src="./assets/img/logo.png" alt="tastify logo" class="navbar__logo">
+            <ul class="navbar__list-group">
+                <li class="navbar__list-item">
+                    <a href="#home" class="navbar__list-link">Home</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#about" class="navbar__list-link">About</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#services" class="navbar__list-link">Services</a>
+                </li>
+                <li class="navbar__list-item color-secondary">
+                    <a href="#menu" class="navbar__list-link">Menu</a>
+                </li>
+                <li class="navbar__list-item color-secondary">
+                    <a href="#contact" class="navbar__list-link">Contact Us</a>
+                </li>
+                <li class="navbar__list-item">
+                    <img src="./assets/img/color-mode.svg" alt="color mode icon" class="navbar__list-mode">
+                </li>
+            </ul>
+            <!-- Desktop Menu End -->
+
+            <!-- Mobile Menu Start -->
+            <ul class="navbar__list-group navbar__list-group--mobile">
+                <li class="navbar__list-item">
+                    <img src="./assets/img/menu.svg" alt="menu icon" class="navbar__list-menu open-btn">
+                    <img src="./assets/img/cancel.svg" alt="cancel icon" class="navbar__list-menu cancel-btn">
+                </li>
+                <li class="navbar__list-item">
+                    <img src="./assets/img/color-mode-dark.svg" alt="color mode dark icon" class="navbar__list-mode">
+                </li>
+            </ul>
+            <!-- Mobile Menu End -->
+        </div>
+    <!-- Navbar End -->
+
+    <!-- Mobile Menu Bar Start -->
+    <div class="mobile-menu">
+        <ul class="mobile-menu__group">
+            <li class="mobile-menu__list">
+                <a href="#home"><h1>Home</h1></a>
+            </li>
+            <li class="mobile-menu__list">
+                <a href="#about"><h1>About</h1></a>
+            </li>
+            <li class="mobile-menu__list">
+                <a href="#services"><h1>Services</h1></a>
+            </li>
+            <li class="mobile-menu__list">
+                <a href="#menu"><h1>Menu</h1></a>
+            </li>
+            <li class="mobile-menu__list">
+                <a href="#contact"><h1>Contact Us</h1></a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Menu Bar End -->
+
+    <!-- Hero Start -->
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__content-headline" data-aos="fade-up">The <span class="colored">Taste</span> of Homecook With a <span class="colored">New Flavour</span></h1>
+                <p class="hero__content-descline" data-aos="fade-up" data-aos-delay="100">We serve the freshest, healthiest salads made with carefully selected ingredients by our expert chefs. We hope you enjoy your meal!</p>
+                <div class="hero__content-button" data-aos="fade-up" data-aos-delay="200">
+                    <button class="hero__content-button-primary">Order Now</button>
+                    <button class="hero__content-button-secondary">
+                        See Our Menu
+                        <img src="./assets/img/arrow-up.svg" alt="arrow-up" class="hero__content-button-secondary--image">
+                    </button</>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="./assets/img/hero-1.png" alt="hero image main" class="hero__image-main">
+                <img src="./assets/img/hero-2.png" alt="hero image back" class="hero__image-back">
+            </div>
+            <div class="hero__back-image" data-aos="zoom-in">
+                <img src="./assets/img/hero-back-1.png" alt="background circle image">
+            </div>
+        </section>
+    <!-- Hero End -->
+
+
+    <!-- About Start -->
+        <section id="about" class="about">
+            <div class="about__image">
+                <div class="about__image-back" data-aos="fade-right"></div>
+                <img src="./assets/img/hero-1.png" alt="about image main" class="about__image-main" data-aos="zoom-in" data-aos-delay="200">
+            </div>
+
+            <div class="about__content">
+                <h5 class="about__content-title" data-aos="fade-right">About Us</h5>
+                <h1 class="about__content-headline" data-aos="fade-up">We Serve the <span class="colored">Best</span> Freshest, Healthiest <span class="colored">Salad</span> for You</h1>
+                <p class="about__content-desc" data-aos="fade-up" data-aos-delay="200">We have been running for so long to continue serving freshest salad, with homecook style and unique flavours that we will continue to nurture for you</p>
+                <button class="about__content-button-primary" data-aos="fade-up" data-aos-delay="300">Know Us More</button>
+            </div>
+        </section>
+    <!-- About End -->
+
+    <!-- Image Overlay Start -->
+    <img src="./assets/img/back-overlay-1.png" alt="body overlay" class="body__overlay-1" data-aos="zoom-in">
+    <!-- Image Overlay End -->
+
+    <!-- Services Start -->
+        <section id="services" class="service">
+            <div class="service__text">
+                <h5 class="service__text-title" data-aos="fade-up">Our Services</h5>
+                <h1 class="service__text-headline" data-aos="fade-up" data-aos-delay="100">We Have the Most <span class="colored">Excellent Services</span> Just for You</h1>
+            </div>
+            <div class="service__cards" data-aos="fade-up" data-aos-delay="300">
+                <div class="service__card">
+                    <img src="./assets/img/service 1.svg" alt="service 1" class="service__card-icon">
+                    <p class="service__card-title">Excellent Food</p>
+                    <p class="service__card-desc">We offer our clients excellent quality services for many years, with the best and delicious food in the city</p>
+                </div>
+                <div class="service__card">
+                    <img src="./assets/img/service 2.svg" alt="service 2" class="service__card-icon">
+                    <p class="service__card-title">Fast Food</p>
+                    <p class="service__card-desc">We offer our clients excellent quality services for many years, with the best and delicious food in the city</p>
+                </div>
+                <div class="service__card">
+                    <img src="./assets/img/service 3.svg" alt="service 3" class="service__card-icon">
+                    <p class="service__card-title">Fast Delivery</p>
+                    <p class="service__card-desc">We offer our clients excellent quality services for many years, with the best and delicious food in the city</p>
+                </div>
+            </div>
+        </section>
+    <!-- Services End -->
+
+    <!-- Image Overlay Start -->
+    <img src="./assets/img/back-overlay-2.png" alt="body overlay" class="body__overlay-2">
+    <!-- Image Overlay End -->
+
+    <!-- Menu Start -->
+        <section id="menu" class="menu">
+            <h5 class="menu__title" data-aos="fade-up">Our Menus</h5>
+            <div class="menu__cards" data-aos="fade-up" data-aos-delay="200">
+                <div class="menu__card">
+                    <div class="menu__card-content">
+                        <p class="menu__card-price">$22</p>
+                        <p class="menu__card-dish">Barbecue Salad</p>
+                    </div>
+                    <img src="./assets/img/menu-1.png" alt="Barbecue Salad" class="menu__image">
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-content">
+                        <p class="menu__card-price">$12</p>
+                        <p class="menu__card-dish">Salad with Fish</p>
+                    </div>
+                    <img src="./assets/img/menu-2.png" alt="Salad with Fish" class="menu__image">
+                </div>
+                <div class="menu__card">
+                    <div class="menu__card-content">
+                        <p class="menu__card-price">$9</p>
+                        <p class="menu__card-dish">Salad Spinach</p>
+                    </div>
+                    <img src="./assets/img/menu-3.png" alt="Salad Spinach" class="menu__image">
+                </div>
+            </div>
+            <button class="menu__content-button-primary" data-aos="fade-up" data-aos-delay="300">See More</button>
+        </section>
+    <!-- Menu End -->
+
+
+    <!-- Mobile App Start -->
+        <section class="mobile">
+            <div class="mobile__content">
+                <h5 class="mobile__content-title" data-aos="fade-right">Mobile App</h5>
+                <h1 class="mobile__content-headline" data-aos="fade-right" data-aos-delay="100"><span class="colored">Order</span> More Faster with Our <span class="colored">Mobile App</span></h1>
+                <p class="mobile__content-desc" data-aos="fade-right" data-aos-delay="200">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more</p>
+                <div class="mobile__content-link-group" data-aos="fade-right" data-aos-delay="300">
+                    <a href="#"><img src="./assets/img/mobile-1.png" alt="app store link app"></a>
+                    <a href="#"><img src="./assets/img/mobile-2.png" alt="play store link app"></a>
+                </div>
+            </div>
+            <div class="mobile__image">
+                <div class="mobile__image-back"></div>
+                <img src="./assets/img/mobile-mockup.png" alt="mobile image main" class="mobile__image-main">
+            </div>
+        </section>
+    <!-- Mobile App End -->
+
+
+    <!-- Contact Start -->
+        <section id="contact" class="contact">
+            <img src="./assets/img/contact-backlay.png" alt="contact backlay" class="contact__backlay">
+            <div class="contact__content" data-aos="zoom-in">
+                <h5 class="contact__content-title">Contact Us</h5>
+                <p class="contact__content-desc">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service</p>
+                <button class="contact__content-button">Contact us Now</button>
+            </div>
+            <img src="./assets/img/hero-1.png" alt="contact overlay" class="contact__overlay" data-aos="zoom-in" data-aos-delay="100">
+        </section>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+        <section class="footer">
+            <img src="./assets/img/logo.png" alt="footer logo" class="footer__logo">
+            <p class="footer__copyright">© 2023 Coding.in Creative. All right reserved</p>
+            <div class="footer__socmed">
+                <a href="#"><img src="./assets/img/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="./assets/img/instagram.svg" alt="instagram.svg"></a>
+                <a href="#"><img src="./assets/img/twitter.svg" alt="twitter.svg"></a>
+            </div>
+        </section>
+    <!-- Footer End -->
+    </div>
+
+    <!-- Plugins Scripts -->
+    <script src="./assets/plugins/jquery/jquery-3.6.3.min.js"></script>
+    <script src="./assets/plugins/aos-master/dist/aos.js"></script>
+    <!-- Local Scripts -->
+    <script src="./js/menu.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

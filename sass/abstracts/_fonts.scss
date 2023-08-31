@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi Light'), local('Satoshi-Light'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.woff2') format('woff2'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.woff') format('woff'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi Light'), local('Satoshi-Light'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.woff2') format('woff2'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.woff') format('woff'),
+      url('../../assets/fonts/satoshi/Satoshi-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi Medium'), local('Satoshi-Medium'),
+      url('../../assets/fonts/satoshi/Satoshi-Medium.woff2') format('woff2'),
+      url('../../assets/fonts/satoshi/Satoshi-Medium.woff') format('woff'),
+      url('../../assets/fonts/satoshi/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro Light'), local('Source-Sans-Pro-Light'),
+      url('../../assets/fonts/source-sans-pro/SourceSansPro-Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro Regular'), local('Source-Sans-Pro-Regular'),
+      url('../../assets/fonts/source-sans-pro/SourceSansPro-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro Medium'), local('Source-Sans-Pro-Medium'),
+      url('../../assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro Bold'), local('Source-Sans-Pro-Bold'),
+      url('../../assets/fonts/source-sans-pro/SourceSansPro-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
