@@ -1,0 +1,14 @@
+// Font-face rule with local font file
+// Make sure that you use the right file path within the url() function
+@mixin font-face($font-family-name, $file-name, $font-weight: 400, $font-style: normal) {
+  @font-face {
+      font-family: "#{$font-family-name}";
+      src: url("../../media/fonts/#{$file-name}.eot");
+      src: url("../../media/fonts/#{$file-name}.eot?#iefix") format("embedded-opentype"),
+      url("../../media/fonts/#{$file-name}.woff") format("woff"),
+      url("../../media/fonts/#{$file-name}.ttf") format("truetype"),
+      url("../../media/fonts/#{$file-name}.svg?#webfont") format("svg");
+      font-weight: $font-weight;
+      font-style: $font-style;
+  }
+}
